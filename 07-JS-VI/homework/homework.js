@@ -11,15 +11,25 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   let total = 0;
   for(let i = 0; i < numeros.length; i++) {
+<<<<<<< HEAD
     total = total + numeros[i];
   }
   cb(total);
+=======
+    total = total + numeros [i];
+  }
+  cb (total);
+>>>>>>> 6d81210707488093404bd5859eb86b81d53f084e
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
+<<<<<<< HEAD
   array.forEach(cb);
+=======
+  array.forEach (cb);
+>>>>>>> 6d81210707488093404bd5859eb86b81d53f084e
 }
 
 function map(array, cb) {
